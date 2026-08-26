@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Faça seu pedido na Francivan Pizzaria em Maracanaú-CE."
+    />
+    <title>Faça seu pedido | Francivan Pizzaria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/pedido.css" />
+  </head>
+  <body class="order-page">
+    <a class="skip-link" href="#pedido">Pular para o conteúdo</a>
+    <header class="site-header order-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">F</span
+          ><span><strong>FRANCIVAN</strong><small>PIZZARIA</small></span></a
+        >
+        <nav class="desktop-nav" aria-label="Navegação principal">
+          <a href="index.html">Home</a
+          ><a href="pedido.html" class="active">Faça seu pedido</a
+          ><a href="index.html#avaliacoes">Avaliações</a
+          ><a href="index.html#localizacao">Onde estamos</a>
+        </nav>
+        <button class="cart-button" id="open-cart" type="button">
+          Carrinho <span id="cart-count">0</span></button
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" id="mobile-nav">
+        <a href="index.html">Home</a><a href="pedido.html">Faça seu pedido</a
+        ><a href="index.html#avaliacoes">Avaliações</a
+        ><a href="index.html#localizacao">Onde estamos</a
+        ><button class="mobile-cart-link" id="open-cart-mobile" type="button">
+          Carrinho <span id="cart-count-mobile">0</span>
+        </button>
+      </nav>
+    </header>
+    <main id="pedido">
+      <section class="order-hero">
+        <div class="container">
+          <p class="eyebrow dark">FRANCIVAN PIZZARIA • MARACANAÚ</p>
+          <div class="order-hero-grid">
+            <div>
+              <h1>Faça seu pedido.</h1>
+              <p>
+                Escolha seus favoritos, adicione ao carrinho e envie tudo pelo
+                WhatsApp.
+              </p>
+            </div>
+            <div class="order-rating">
+              <span class="stars">★★★★★</span><strong>4,6</strong
+              ><span>505 avaliações</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu-area">
+        <div class="container order-layout">
+          <div class="menu-content">
+            <div class="menu-toolbar">
+              <p class="eyebrow dark">Cardápio</p>
+              <h2>Escolha o que vai para a mesa.</h2>
+              <div class="category-tabs">
+                <button class="category-tab active" data-category="todos">
+                Todos</button>
+                <button class="category-tab" data-category="pizzas">
+                Pizzas</button>
+                <button class="category-tab" data-category="sanduiches">
+                Sanduiches</button>
+                <button class="category-tab" data-category="bebidas">
+                Bebidas</button>
+                <button class="category-tab" data-category="extras">
+                Extras
+                </button>
+              </div>
+            </div>
+            <div class="product-grid" id="product-grid"></div>
+          </div>
+          <aside class="cart-panel" id="cart-panel">
+            <div class="cart-panel-head">
+              <div>
+                <span class="eyebrow dark">Seu pedido</span>
+                <h2>Carrinho</h2>
+              </div>
+              <button class="cart-close" id="close-cart">×</button>
+            </div>
+            <div class="cart-items" id="cart-items"></div>
+            <div class="cart-footer">
+              <div class="cart-total">
+                <span>Total estimado</span
+                ><strong id="cart-total">R$ 0,00</strong>
+              </div>
+              <button class="checkout-btn" id="checkout" disabled>
+                Enviar pedido pelo WhatsApp →
+              </button>
+              <p>
+                O pedido será enviado para confirmação. Confirme disponibilidade
+                e valor final.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <div class="footer-brand">
+          <a class="brand" href="index.html"
+            ><span class="brand-mark">F</span
+            ><span><strong>FRANCIVAN</strong><small>PIZZARIA</small></span></a
+          >
+          <p>Pizzaria em Maracanaú, Ceará.</p>
+        </div>
+        <div class="footer-col">
+          <strong>Explorar</strong><a href="index.html">Home</a
+          ><a href="pedido.html">Faça seu pedido</a
+          ><a href="index.html#avaliacoes">Avaliações</a>
+        </div>
+        <div class="footer-col">
+          <strong>Contato</strong><a href="tel:+558594042423">(85) 9404-2423</a
+          ><a
+            href="https://www.instagram.com/pizzariafrancivan/"
+            target="_blank"
+            rel="noopener"
+            >Instagram</a
+          ><a href="index.html#localizacao">Rua Joana Barroso, 570</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Francivan Pizzaria.</span
+        ><span>Pizza em Maracanaú • Ceará</span>
+      </div>
+    </footer>
+    <script src="js/order.js" defer></script>
+  </body>
+</html>
