@@ -1,6 +1,6 @@
 # 🍕 Francivan Pizzaria
 
-![Status](https://img.shields.io/badge/status-em%20Finalizado-green)
+![Status](https://img.shields.io/badge/status-%20Finalizado-green)
 ![HTML](https://img.shields.io/badge/HTML5-Structure-orange)
 ![CSS](https://img.shields.io/badge/CSS3-Styling-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-yellow)
