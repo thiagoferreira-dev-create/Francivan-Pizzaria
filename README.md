@@ -310,27 +310,6 @@ Essa separação evita sobrecarregar a landing page e permite que cada página t
 
 ---
 
-## 🚀 Próximas melhorias
-
-O projeto foi estruturado pensando em futuras evoluções.
-
-Possíveis funcionalidades:
-
-* [ ] Seleção de sabores da pizza;
-* [ ] Seleção de tamanho;
-* [ ] Escolha de borda;
-* [ ] Adicionais;
-* [ ] Campo de observações;
-* [ ] Escolha entre entrega e retirada;
-* [ ] Cálculo de taxa de entrega;
-* [ ] Formulário com endereço do cliente;
-* [ ] Integração com banco de dados;
-* [ ] Painel administrativo;
-* [ ] Sistema de autenticação;
-* [ ] Controle de pedidos em tempo real;
-* [ ] Integração com API de pagamentos.
-
----
 
 ## 🎯 Objetivo do projeto
 
